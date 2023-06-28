@@ -1,0 +1,26 @@
+#answer { 
+    border-style: solid;
+    border-color: rgb(192, 188, 188);
+    width: 250px;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}
+.button1 {
+    background-color: rgb(168, 165, 165);
+    width: 70px;
+    height: 40px;
+}
+.button2 {
+    border-style: solid;
+    border-color: rgb(192, 188, 188);
+    width: 70px;
+    height: 40px;
+}
+.button3 {
+    color: white;
+    background-color: rgb(103, 103, 231);
+    width: 70px;
+    height: 160px;
+
+}

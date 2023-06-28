@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <script scr="calculator.js"></script>
+    <div class="calc">
+        <form action="" name="myform">
+            <input type="text" id="answer" name="output">
+            <br><br>
+            <button class="button1" onclick="addInput('+')">+</button>
+            <button class="button1" onclick="addInput('-')">-</button>
+            <button class="button1" onclick="addInput('*')">*</button>
+            <button class="button1" onclick="addInput('/')">/</button>
+            <br><br>
+            <button class="button2" onclick="addInput('7')">7</button>
+            <button class="button2" onclick="addInput('8')">8</button>
+            <button class="button2" onclick="addInput('9')">9</button>
+            <br><br>
+            <button class="button2" onclick="addInput('4')">4</button>
+            <button class="button2" onclick="addInput('5')">5</button>
+            <button class="button2" onclick="addInput('6')">6</button>
+            <br><br>
+            <button class="button2" onclick="addInput('1')">1</button>
+            <button class="button2" onclick="addInput('2')">2</button>
+            <button class="button2" onclick="addInput('3')">3</button>
+            <br><br>
+            <button class="button2" onclick="addInput('0')">0</button>
+            <button class="button2" onclick="addInput('.')">.</button>
+            <button class="button2" onclick="addInput('')">C</button>
+            <button class="button3" onclick="calculateResult()">=</button>
+        </form>
+    </div>
+</body>
+</html>
